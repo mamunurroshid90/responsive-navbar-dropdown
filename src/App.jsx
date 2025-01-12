@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
+      <section className=" bg-Hero h-screen bg-cover">
+        <Navbar />
+      </section>
     </>
   );
 }

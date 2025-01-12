@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         {/* Mobile navbar */}
         <ul
-          className={` flex flex-col md:hidden bg-slate-200 absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
+          className={` flex flex-col md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
             isOpen ? "left-0" : "left-[-100%]"
           }`}
         >
